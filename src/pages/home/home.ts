@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  public onAbout(): void {
+    this.navCtrl.push('about-page');
+  }
+
 }
